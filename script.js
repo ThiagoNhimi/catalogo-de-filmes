@@ -22,6 +22,7 @@ function addFilme(id, titulo, duracao, atores, anoDeLancamento, emCartaz){
 }
 
 addFilme(3, "Procurando Nemo", 130, ["Nemo", "teste"], "2007", false)
+addFilme(4, "A procura da felicidade", 130, ["Will Smith"], "2007", false)
 
 function buscarFilme(identificadorFilme){
         for(let contador = 0; contador < catalogo.length; contador++){
